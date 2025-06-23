@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'superhero': ['Orbitron', 'sans-serif'],
+			},
 			colors: {
 				// Custom RunPunchMan colors
 				navy: {
