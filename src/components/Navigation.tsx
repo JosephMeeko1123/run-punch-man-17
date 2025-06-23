@@ -25,8 +25,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">R</span>
+            <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center overflow-hidden">
+              <img 
+                src="/lovable-uploads/43644e4e-066f-44fb-8fb5-3a892299ca49.png" 
+                alt="RunPunchMan Icon" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-white font-bold text-xl tracking-wide">RunPunchMan</span>
           </Link>
