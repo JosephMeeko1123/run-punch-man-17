@@ -32,10 +32,10 @@ const Index = () => {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/about" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-superhero font-bold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg tracking-wide">
+              <Link to="/about" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-superhero font-bold text-base transition-all duration-200 transform hover:scale-105 shadow-lg tracking-wide">
                 DISCOVER MY STORY
               </Link>
-              <Link to="/journal" className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-navy-900 px-8 py-4 rounded-lg font-superhero font-bold text-lg transition-all duration-200 transform hover:scale-105 tracking-wide">
+              <Link to="/journal" className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-navy-900 px-8 py-4 rounded-lg font-superhero font-bold text-base transition-all duration-200 transform hover:scale-105 tracking-wide">
                 READ DAILY JOURNAL
               </Link>
             </div>
@@ -108,10 +108,10 @@ const Index = () => {
             Join me in discovering what it means to train daily and live boldly through Christ.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/scripture" className="bg-yellow-400 hover:bg-yellow-500 text-navy-900 px-8 py-4 rounded-lg font-superhero font-bold text-lg transition-all duration-200 transform hover:scale-105 tracking-wide">
+            <Link to="/scripture" className="bg-yellow-400 hover:bg-yellow-500 text-navy-900 px-8 py-4 rounded-lg font-superhero font-bold text-base transition-all duration-200 transform hover:scale-105 tracking-wide">
               DAILY SCRIPTURE
             </Link>
-            <Link to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-navy-900 px-8 py-4 rounded-lg font-superhero font-bold text-lg transition-all duration-200 transform hover:scale-105 tracking-wide">
+            <Link to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-navy-900 px-8 py-4 rounded-lg font-superhero font-bold text-base transition-all duration-200 transform hover:scale-105 tracking-wide">
               GET WEEKLY INSPIRATION
             </Link>
           </div>
