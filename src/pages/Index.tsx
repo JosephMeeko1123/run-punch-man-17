@@ -41,8 +41,8 @@ const Index = () => {
         
         {/* Animated background elements */}
         <div className="absolute bottom-10 left-10 w-4 h-4 bg-yellow-400 rounded-full animate-pulse"></div>
-        <div className="absolute top-20 right-20 w-6 h-6 bg-red-600 rounded-full animate-bounce"></div>
-        <div className="absolute bottom-32 right-32 w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
+        
+        
       </section>
 
       {/* Mission Statement Section */}
