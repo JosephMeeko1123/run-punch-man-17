@@ -19,6 +19,13 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Custom RunPunchMan colors
+				navy: {
+					700: '#1e3a8a',
+					800: '#1e40af',
+					900: '#1e293b',
+				},
+				// Existing shadcn colors
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
