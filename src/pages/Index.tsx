@@ -1,11 +1,8 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       <Navigation />
       
       {/* Hero Section */}
@@ -43,7 +40,7 @@ const Index = () => {
         </div>
         
         {/* Animated background elements */}
-        <div className="absolute bottom-10 left-10 w-4 h-4 bg-yellow-400 rounded-full animate-pulse"></div>
+        
         
         
       </section>
@@ -119,8 +116,6 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
