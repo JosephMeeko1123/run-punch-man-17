@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
@@ -16,7 +15,7 @@ const Index = () => {
             {/* RunPunchMan Logo */}
             <div className="mx-auto w-80 h-80 md:w-96 md:h-96 flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
               <img 
-                src="/lovable-uploads/8ecb7bb7-52dd-4cd1-a854-fa69372d4f06.png" 
+                src="/lovable-uploads/6841411b-a5ff-4f1d-ad6b-4a5d2af74299.png" 
                 alt="RunPunchMan Logo - Train Daily. Live Boldly." 
                 className="w-full h-full object-contain drop-shadow-2xl"
               />
