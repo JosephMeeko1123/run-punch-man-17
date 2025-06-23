@@ -11,9 +11,9 @@ const Index = () => {
       <section className="relative bg-gradient-to-br from-navy-900 via-navy-800 to-red-900 min-h-screen flex items-center">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* RunPunchMan Logo */}
-            <div className="mx-auto w-[960px] h-[960px] md:w-[1152px] md:h-[1152px] flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
+            <div className="mx-auto w-[720px] h-[720px] md:w-[864px] md:h-[864px] flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
               <img 
                 src="/lovable-uploads/6841411b-a5ff-4f1d-ad6b-4a5d2af74299.png" 
                 alt="RunPunchMan Logo - Train Daily. Live Boldly." 
