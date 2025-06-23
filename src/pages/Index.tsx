@@ -13,9 +13,13 @@ const Index = () => {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
-            {/* Logo/Hero Image Placeholder */}
-            <div className="mx-auto w-32 h-32 bg-gradient-to-br from-yellow-400 to-red-600 rounded-full flex items-center justify-center shadow-2xl transform hover:scale-110 transition-transform duration-300">
-              <span className="text-4xl font-bold text-white">RPM</span>
+            {/* RunPunchMan Logo */}
+            <div className="mx-auto w-80 h-80 md:w-96 md:h-96 flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
+              <img 
+                src="/lovable-uploads/8ecb7bb7-52dd-4cd1-a854-fa69372d4f06.png" 
+                alt="RunPunchMan Logo - Train Daily. Live Boldly." 
+                className="w-full h-full object-contain drop-shadow-2xl"
+              />
             </div>
             
             {/* Main Headline */}
