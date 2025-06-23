@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
@@ -11,11 +12,11 @@ const Index = () => {
       <section className="relative bg-gradient-to-br from-navy-900 via-navy-800 to-red-900 min-h-screen flex items-center">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* RunPunchMan Logo */}
-            <div className="mx-auto w-80 h-80 md:w-96 md:h-96 flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
+            <div className="mx-auto w-96 h-96 md:w-[500px] md:h-[500px] flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
               <img 
-                src="/lovable-uploads/6841411b-a5ff-4f1d-ad6b-4a5d2af74299.png" 
+                src="/lovable-uploads/2e4f3183-fdab-4d6f-b2de-addccfada90d.png" 
                 alt="RunPunchMan Logo - Train Daily. Live Boldly." 
                 className="w-full h-full object-contain drop-shadow-2xl"
               />
