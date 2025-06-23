@@ -7,7 +7,7 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-navy-900 via-navy-800 to-red-900 min-h-screen flex items-center">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+        <div className="absolute inset-0 opacity-20 bg-gray-600"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6">
             {/* RunPunchMan Logo */}
