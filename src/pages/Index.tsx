@@ -1,11 +1,8 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       <Navigation />
       
       {/* Hero Section */}
@@ -15,17 +12,13 @@ const Index = () => {
           <div className="space-y-6">
             {/* RunPunchMan Logo */}
             <div className="mx-auto w-96 h-96 md:w-[500px] md:h-[500px] flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
-              <img 
-                src="/lovable-uploads/2e4f3183-fdab-4d6f-b2de-addccfada90d.png" 
-                alt="RunPunchMan Logo - Train Daily. Live Boldly." 
-                className="w-full h-full object-contain drop-shadow-2xl"
-              />
+              <img src="/lovable-uploads/2e4f3183-fdab-4d6f-b2de-addccfada90d.png" alt="RunPunchMan Logo - Train Daily. Live Boldly." className="w-full h-full drop-shadow-2xl object-cover" />
             </div>
             
             {/* Main Headline */}
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-              <span className="block text-yellow-400">TRAIN DAILY.</span>
-              <span className="block">LIVE BOLDLY.</span>
+              
+              
             </h1>
             
             {/* Tagline */}
@@ -36,16 +29,10 @@ const Index = () => {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                to="/about" 
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
-              >
+              <Link to="/about" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg">
                 Discover My Story
               </Link>
-              <Link 
-                to="/journal" 
-                className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-navy-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105"
-              >
+              <Link to="/journal" className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-navy-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105">
                 Read Daily Journal
               </Link>
             </div>
@@ -118,16 +105,10 @@ const Index = () => {
             Join me in discovering what it means to train daily and live boldly through Christ.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              to="/scripture" 
-              className="bg-yellow-400 hover:bg-yellow-500 text-navy-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105"
-            >
+            <Link to="/scripture" className="bg-yellow-400 hover:bg-yellow-500 text-navy-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105">
               Daily Scripture
             </Link>
-            <Link 
-              to="/contact" 
-              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-navy-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105"
-            >
+            <Link to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-navy-900 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-200 transform hover:scale-105">
               Get Weekly Inspiration
             </Link>
           </div>
@@ -135,8 +116,6 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
